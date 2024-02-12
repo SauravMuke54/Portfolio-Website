@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Intro() {
   const downloadResume = () => {
     const resumePdfLink =
-      "https://drive.google.com/file/d/1kgV3GLLMIhXbE2e5nFHIHTrfkCqDTloA/view?usp=sharing";
+      "https://drive.google.com/file/d/13AiitOhiOG62XrIZFawnIRHszvE5N1Kf/view?usp=sharing";
     const link = document.createElement("a");
     link.href = resumePdfLink;
     link.download = "resume.pdf";
