@@ -19,6 +19,7 @@ import netbeans from '../Images/netbeans.png'
 import php from '../Images/php.png'
 import socket from '../Images/socket.png'
 import vscode from '../Images/vscode.png'
+import { motion } from 'framer-motion'
 
 
 export default function Skills() {
@@ -28,7 +29,19 @@ export default function Skills() {
  <center className="text-white"><h1>SKILLS</h1></center>
  <hr className='text-white'></hr>   
    <div className="row mt-5">
-    <div className="col-lg-5 mx-auto mt-3 border  border-3 border-info rounded-5 p-3 ">
+    <motion.div initial={{ opacity: 0,x:-50 }}
+          animate={{ opacity: 1,x:0 }}
+          exit={{ opacity: 0,x:-50 }}
+          transition={{ duration: 1 }}
+          whileHover={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }} 
+          whileTap={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }}
+          className="col-lg-5 mx-auto mt-3 border  border-3 border-info rounded-5 p-3 ">
     <center className="text-white"><h4>LANGUAGES</h4></center>  
     <hr className='text-white'></hr>
     <div className="row p-1 text-center">
@@ -45,9 +58,23 @@ export default function Skills() {
             <img className='img-fluid rounded-5' src={javascript} style={{width:"70px",height:"70px"}}/>
         </div>
     </div>
-    </div>
+    </motion.div>
 
-    <div className="col-lg-5 mx-auto mt-3 border  border-3 border-info rounded-5 p-3 ">
+    <motion.div initial={{ opacity: 0,x:50 }}
+          animate={{ opacity: 1,x:0 }}
+          exit={{ opacity: 0,x:50 }}
+          transition={{ duration: 1 }}
+          whileHover={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }}
+          whileTap={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }}
+          
+
+           className="col-lg-5 mx-auto mt-3 border  border-3 border-info rounded-5 p-3 ">
     <center className="text-white"><h4>PLATFORMS</h4></center>  
     <hr className='text-white'></hr>
     <div className="row p-1 text-center">
@@ -59,10 +86,23 @@ export default function Skills() {
         </div>
        
     </div>
-    </div>
+    </motion.div>
 
 
-    <div className="col-lg-11 mx-auto mt-3 border  border-3 border-info rounded-5 p-3">
+    <motion.div initial={{ opacity: 0,x:50 }}
+          animate={{ opacity: 1,x:0 }}
+          exit={{ opacity: 0,x:50 }}
+          transition={{ duration: 1 }}
+          whileHover={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }}
+
+          whileTap={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }}
+           className="col-lg-11 mx-auto mt-3 border  border-3 border-info rounded-5 p-3">
     <center className="text-white"><h4>TECHNOLOGIES / FRAMEWORK</h4></center>  
     <hr className='text-white'></hr>
    <div className="row p-1 text-center">
@@ -125,7 +165,7 @@ export default function Skills() {
         </div>
    </div>
 
-    </div>
+    </motion.div>
     
     </div>
  

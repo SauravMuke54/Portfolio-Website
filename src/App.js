@@ -14,7 +14,7 @@ function App() {
     <div>
       <GifBackground />
       <Navbar />
-
+      
       <Intro />
 
       <Combined />

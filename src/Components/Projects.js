@@ -1,5 +1,6 @@
 import React from "react";
 import project from "../Images/project.webp";
+import { motion } from "framer-motion";
 
 export default function Projects() {
   return (
@@ -14,7 +15,18 @@ export default function Projects() {
       <hr className="text-white"></hr>
       {/* row 1 */}
       <div className="row p-3 ">
-        <div className="col-lg-3 mx-auto  mt-2 border border-3 border-info rounded-5 p-2">
+        <motion.div  initial={{ opacity: 0,x:-50 }}
+          animate={{ opacity: 1,x:0 }}
+          exit={{ opacity: 0,x:-50 }}
+          transition={{ duration: 1 }}
+          whileHover={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }}
+        whileTap={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }} className="col-lg-3 mx-auto  mt-2 border border-3 border-info rounded-5 p-2">
           <center className="text-white mt-2">
             <h4>ICODE</h4>
           </center>
@@ -45,9 +57,20 @@ export default function Projects() {
               ></i>
             </a>
           </center>
-        </div>
+        </motion.div>
 
-        <div className="col-lg-3 mx-auto  mt-2 border border-3 border-info rounded-5 p-2">
+        <motion.div  initial={{ opacity: 0,x:-50 }}
+          animate={{ opacity: 1,x:0 }}
+          exit={{ opacity: 0,x:-50 }}
+          transition={{ duration: 1 }}
+          whileHover={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }}
+        whileTap={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }} className="col-lg-3 mx-auto  mt-2 border border-3 border-info rounded-5 p-2">
           <center className="text-white mt-2">
             <h4>CODE ALONG</h4>
           </center>
@@ -86,9 +109,20 @@ export default function Projects() {
               ></i>
             </a>
           </center>
-        </div>
+        </motion.div>
 
-        <div className="col-lg-3 mx-auto  mt-2 border border-3 border-info rounded-5 p-2">
+        <motion.div  initial={{ opacity: 0,x:-50 }}
+          animate={{ opacity: 1,x:0 }}
+          exit={{ opacity: 0,x:-50 }}
+          transition={{ duration: 1 }}
+          whileHover={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }}
+        whileTap={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }} className="col-lg-3 mx-auto  mt-2 border border-3 border-info rounded-5 p-2">
           <center className="text-white mt-2">
             <h4>ONE PLATFORM</h4>
           </center>
@@ -116,13 +150,24 @@ export default function Projects() {
               ></i>
             </a>
           </center>
-        </div>
+        </motion.div>
       </div>
 
       {/* row 2 */}
 
       <div className="row p-3 ">
-        <div className="col-lg-3 mx-auto  mt-2 border border-3 border-info rounded-5 p-2">
+        <motion.div   initial={{ opacity: 0,x:-50 }}
+          animate={{ opacity: 1,x:0 }}
+          exit={{ opacity: 0,x:-50 }}
+          transition={{ duration: 1 }}
+          whileHover={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }}
+        whileTap={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }} className="col-lg-3 mx-auto  mt-2 border border-3 border-info rounded-5 p-2">
           <center className="text-white mt-2">
             <h4>CONFIRM PHOTO</h4>
           </center>
@@ -150,9 +195,20 @@ export default function Projects() {
               ></i>
             </a>
           </center>
-        </div>
+        </motion.div>
 
-        <div className="col-lg-3 mx-auto  mt-2 border border-3 border-info rounded-5 p-2">
+        <motion.div  initial={{ opacity: 0,x:-50 }}
+          animate={{ opacity: 1,x:0 }}
+          exit={{ opacity: 0,x:-50 }}
+          transition={{ duration: 1 }}
+          whileHover={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }}
+        whileTap={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }} className="col-lg-3 mx-auto  mt-2 border border-3 border-info rounded-5 p-2">
           <center className="text-white mt-2">
             <h4>REPOSITORY LISTER</h4>
           </center>
@@ -188,9 +244,20 @@ export default function Projects() {
               ></i>
             </a>
           </center>
-        </div>
+        </motion.div>
 
-        <div className="col-lg-3 mx-auto  mt-2 border border-3 border-info rounded-5 p-2">
+        <motion.div  initial={{ opacity: 0,x:-50 }}
+          animate={{ opacity: 1,x:0 }}
+          exit={{ opacity: 0,x:-50 }}
+          transition={{ duration: 1 }}
+          whileHover={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }}
+        whileTap={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }} className="col-lg-3 mx-auto  mt-2 border border-3 border-info rounded-5 p-2">
           <center className="text-white mt-2">
             <h4>DISCUSSION FORUM</h4>
           </center>
@@ -217,7 +284,7 @@ export default function Projects() {
               ></i>
             </a>
           </center>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
