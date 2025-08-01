@@ -5,7 +5,7 @@ import '../App.css'; // Create a CSS file for styling
 const GifBackground = () => {
   return (
     <div className="gif-background">
-      <img src="https://wallpaper-house.com/data/out/10/wallpaper2you_436376.jpg" alt="Background GIF" />
+      <img src="https://images.steamusercontent.com/ugc/1888724272548267569/1EA29EC3AF6526AC32612203AC05BC484FFDC987/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="Background GIF" />
     </div>
   );
 };
