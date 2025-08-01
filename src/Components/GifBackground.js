@@ -5,7 +5,7 @@ import '../App.css'; // Create a CSS file for styling
 const GifBackground = () => {
   return (
     <div className="gif-background">
-      <img src="https://i.pinimg.com/originals/12/b2/3a/12b23a7752e8a7a4464c1ff5e596237f.gif" alt="Background GIF" />
+      <img src="https://i.pinimg.com/originals/83/f6/5e/83f65e8c6efc88fabfcfbb11cf63bd8a.gif" alt="Background GIF" />
     </div>
   );
 };
